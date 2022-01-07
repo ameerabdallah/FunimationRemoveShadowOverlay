@@ -1,0 +1,13 @@
+{
+    "name": "Funimation Remove Video Player Shadow",
+    "description": "Hides overlay shadow on video player",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["*://*.funimation.com/v/*"],
+          "css": ["new.css"]
+        }
+      ]
+    
+  }

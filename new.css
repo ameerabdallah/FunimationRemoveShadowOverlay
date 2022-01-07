@@ -1,0 +1,19 @@
+.meta-overlay {
+    background-image: none !important;
+}
+
+.video-js ul {
+    text-shadow: 0px 0px 5px black !important;
+}
+
+.vjs-playing ul {
+    opacity: 0.5 !important;
+}
+
+.vjs-playing .video-player-controls {
+    opacity: 0.5;
+}
+
+.video-js.vjs-funi-theme .vjs-progress-holder {
+    height: 10px !important;
+}
